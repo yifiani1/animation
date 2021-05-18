@@ -1,0 +1,32 @@
+.back-gr{
+    background-image: url(../img/back.jpg);
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.car{
+    position: absolute;
+    bottom: 10px;
+    right: 240px;
+    width: 1000px;
+    height: 500px;
+    animation: care 5s infinite;
+    
+
+    
+}
+@keyframes care  {
+    0% {bottom: 1px;}
+    25% {bottom: 8px;}
+    50% {bottom: 15px;}
+    75% {bottom: 8px;}
+    100% {bottom: 3px;}
+    
+    
+
+}
+
